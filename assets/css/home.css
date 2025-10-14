@@ -74,15 +74,16 @@
 }
 .container .h-experiencia .h-itens .item {
     display: flex;
-    flex-direction: row;
-    justify-content: sp;
+    flex-direction: row; 
+    justify-content: space-between;
     width: 100%;
-    min-height: 220px;
+    min-height: 220px; 
 }
 .container .h-experiencia .h-itens .item .work {
     min-height: 25%;
     max-width: 25%;
     min-height: 100px;
+    margin-right: 30px;
 }
 .container .h-experiencia .h-itens .item .work h2  { 
     font-family: 'Oswald', sans-serif;
@@ -96,7 +97,6 @@
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
     font-size: 22px;
-    margin-bottom: 10px;
     text-transform: uppercase;
     color: #000000;
 }
@@ -105,7 +105,7 @@
     min-height: 100px;
 }
 .container .h-experiencia .h-itens .item .description h2 {
-     font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 22px;
     margin-bottom: 10px;
@@ -118,5 +118,53 @@
     font-size: 18px;
     margin-bottom: 10px;
     text-align: justify;
+    color: #000000;
+}
+
+/* Educação */
+.container .h-educacao {
+    width: 100%;
+    min-height: 100px;
+}
+.container .h-educacao .h-title-educacao {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00E0ff;
+    margin-bottom: 50px;
+}
+.container .h-educacao .h-title-educacao h2 {
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .h-educacao .item {
+    width: 100%;
+    min-height: 220px;
+}
+.container .h-educacao .item .w-100-title {
+    margin-bottom: 10px;
+}
+.container .h-educacao .item .w-100-title h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #232323;
+}
+.container .h-educacao .item .w-100-title span {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #00E0ff;
+}
+.container .h-educacao .item .w-100-title p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 18px;
     color: #000000;
 }
