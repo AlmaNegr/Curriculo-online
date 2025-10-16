@@ -189,4 +189,22 @@
     text-transform: uppercase;
     color: #000000;
 }
+.container .h-habilidades .item {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container .h-habilidades .item .icon {
+    position: relative;
+    width: 200px;
+    height: 18px;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    background: transparent;
+}
+/* Percentuais */
+
 
