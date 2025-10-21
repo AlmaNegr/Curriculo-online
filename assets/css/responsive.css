@@ -53,5 +53,48 @@
         min-width: 100%;
         min-height: 80px;
     }
+    .container .h-experiencia .h-itens .item .description {
+        min-width: 100%;
+        min-height: 100px;
+    }
+    .container .h-experiencia .h-itens .item .description h2 {
+        margin-bottom: 20px;
+    }
 
+    /* Educação */
+    .container .h-educacao .h-title-educacao h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-educacao .item {
+        margin-bottom: 50px;
+    }
+    .container .h-educacao .item .w-100-title {
+        margin-bottom: 20px;
+    }
+    .container .h-educacao .item .w-100-title h2 {
+        font-size: 22px
+    }
+    .container .h-educacao .item .w-100-title span {
+        font-size: 22px;
+    }
+
+    /* Habilidades */
+    .container .h-habilidades .h-title-habilidades h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-habilidades .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Contato */
+    .container .h-contato .h-title-contato-h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
 }
