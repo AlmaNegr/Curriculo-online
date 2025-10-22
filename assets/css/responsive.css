@@ -98,3 +98,50 @@
         font-size: 22px;
     }
 }
+
+/* Mobile 375px */
+@media screen and (max-width: 375px) {
+    .container .h-name {
+        margin-top: 10%;
+        margin-bottom: 50px;
+    }
+    .container .h-name h1 {
+        font-size: 28px;
+    }
+    .contaienr .h-name h2 {
+        font-size: 22px;
+    }
+
+    /* Sobre */
+    .container .h-sobre {
+        width: 100%;
+        min-height: 100px;
+        margin-bottom: 50px;
+    }
+    .container .h-sobre .h-titulo-sobre h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-sobre .paragraf {
+        font-size: 18px;
+    }
+
+    /* Experiência */
+    .contaienr .h-experiencia .h-title-experiencia h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-experiencia .h-itens .item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 220px;
+        margin-bottom: 80px;
+    }
+    .container .h-experiecia .h-itens .item .work {
+        min-width: 100%;
+        min-height: 80px;
+    }
+}
+
+
