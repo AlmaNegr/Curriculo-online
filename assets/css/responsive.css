@@ -20,7 +20,6 @@
     }
     .container .h-name p {
         font-size: 22px;
-
     }
 
     /* Sobre */
@@ -34,7 +33,7 @@
         font-size: 22px;
     }
     .container .h-sobre .paragraf {
-        font-size: 28px;
+        font-size: 18px; /* Ajustado para evitar overflow */
     }
 
     /* Experiência */
@@ -73,7 +72,7 @@
         margin-bottom: 20px;
     }
     .container .h-educacao .item .w-100-title h2 {
-        font-size: 22px
+        font-size: 22px;
     }
     .container .h-educacao .item .w-100-title span {
         font-size: 22px;
@@ -93,7 +92,7 @@
     }
 
     /* Contato */
-    .container .h-contato .h-title-contato-h2 {
+    .container .h-contato .h-title-contato {
         margin-top: 5%;
         font-size: 22px;
     }
@@ -108,7 +107,7 @@
     .container .h-name h1 {
         font-size: 28px;
     }
-    .contaienr .h-name h2 {
+    .container .h-name h2 {
         font-size: 22px;
     }
 
@@ -118,16 +117,16 @@
         min-height: 100px;
         margin-bottom: 50px;
     }
-    .container .h-sobre .h-titulo-sobre h2 {
+    .container .h-sobre .h-title-sobre h2 {
         margin-top: 5%;
         font-size: 22px;
     }
     .container .h-sobre .paragraf {
-        font-size: 18px;
+        font-size: 16px; /* Ainda menor para telas bem pequenas */
     }
 
     /* Experiência */
-    .contaienr .h-experiencia .h-title-experiencia h2 {
+    .container .h-experiencia .h-title-experiencia h2 {
         margin-top: 5%;
         font-size: 22px;
     }
@@ -138,10 +137,22 @@
         min-height: 220px;
         margin-bottom: 80px;
     }
-    .container .h-experiecia .h-itens .item .work {
+    .container .h-experiencia .h-itens .item .work {
         min-width: 100%;
         min-height: 80px;
     }
+    .container .h-experiencia .h-itens .item h2 {
+        text-align: center;
+    }
+    .container .h-experiencia .h-itens .item p {
+        text-align: center;
+    }
+    .container .h-experiencia .h-itens .item .description {
+        width: 100%;
+        min-height: 100px;
+    }
+    .container .h-experiencia .h-itens .item .description h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
-
-
