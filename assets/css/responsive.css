@@ -90,6 +90,13 @@
         width: 100%;
         margin-bottom: 20px;
     }
+    .container .h-habilidades .item .title {
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+    .container .h-habilidades .item .icon {
+        width: 100%;
+    }
 
     /* Contato */
     .container .h-contato .h-title-contato {
